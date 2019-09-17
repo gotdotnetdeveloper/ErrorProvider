@@ -29,10 +29,10 @@
     
 
           
-            <Button Height="20" Style="{StaticResource Buttons_Button}"
+            <Button Height="20" 
                     ToolTip="OriginalTooltip"
                     Command="{Binding SaveEmployeesCommand}">
-                Биндинг DisableReasonTip через стиль
+                
             </Button>
 
             <ToggleButton x:Name="btnSimpleРазместить" ToolTipService.ShowOnDisabled="True"  ToolTipService.ShowDuration="60000"
